@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(188, 160, 83, 0.573);
+    display: grid;
+    place-items: center;
+}
+.main{
+    padding: 5px;
+    font-size: medium;
+    position: relative;
+    top: 220px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(253, 227, 227);
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+
+}
+h1{
+    margin:20px auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px white;
+}
+input{
+    width: 245px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+.op{
+    margin-top: 60px;
+    text-shadow: 5px 5px 10px black;
+    display: grid;
+    place-items: space-evenly;
+    grid-template-columns: repeat(5,1fr);
+}
